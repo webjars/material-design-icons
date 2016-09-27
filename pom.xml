@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>material-design-icons</artifactId>
-    <version>3.0.1-SNAPSHOT</version>
+    <version>3.0.1</version>
     <name>material-design-icons</name>
     <description>WebJar for material-design-icons</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/material-design-icons</url>
         <connection>scm:git:https://github.com/webjars/material-design-icons.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/material-design-icons.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>material-design-icons-3.0.1</tag>
     </scm>
 
     <build>
@@ -68,7 +68,7 @@
                                 <echo message="download archive" />
                                 <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
                                 <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/iconfont" />
