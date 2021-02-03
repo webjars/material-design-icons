@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>material-design-icons</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.1-SNAPSHOT</version>
     <name>material-design-icons</name>
     <description>WebJar for material-design-icons</description>
     <url>http://webjars.org</url>
@@ -51,7 +51,7 @@
         <url>http://github.com/webjars/material-design-icons</url>
         <connection>scm:git:https://github.com/webjars/material-design-icons.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/material-design-icons.git</developerConnection>
-        <tag>material-design-icons-4.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
